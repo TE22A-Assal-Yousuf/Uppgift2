@@ -1,11 +1,29 @@
 .grid_1{
     display: grid;
-    grid-template-columns: 1fr, 3fr;
-    grid-template-rows: 1fr, 3fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 10vh 10vh 70vh 10vh ;
 
 }
 header{
     background-color: black;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+#logo{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+.album{
+    height: 50px;
+    width: auto;
+}
+main{
+    
+}
+.albumstore{
+    
+}
+#logo1{
+    align-items: center;
 }
