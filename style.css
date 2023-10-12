@@ -1,7 +1,7 @@
 .grid_1{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 15vh 70vh 15vh ;
+    grid-template-rows: 15vh 15vh 70vh 15vh ;
     gap: 2px;
 
 }
@@ -16,21 +16,37 @@ header{
     align-items: center;
 }
 .album{
-    height: 50px;
+    height: 120px;
     width: auto;
+    padding-right: 50px;
 }
 main{
     
 }
 .albumstore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     grid-row: 3/4;
     grid-column: 2/3;
+    background-color: black;
+    border: solid black;
     
 }
 #logo1{
     align-items: center;
 }
-.bild{
+aside{
     grid-row: 2/4;
     grid-column: 1/2;
+
+    height: auto;
+    width: auto;
+}
+footer{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+nav{
+    text-align: center;
 }
